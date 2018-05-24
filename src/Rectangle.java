@@ -10,4 +10,9 @@ public class Rectangle {
 
 
     }
+    double obwod (){
+        double obwod1 = (2*bokB)+(2*bokA);
+        return obwod1;
+
+    }
 }

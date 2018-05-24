@@ -11,7 +11,12 @@ public class Test {
         System.out.println(kalkulator.squareArea(kwadrat1));
         System.out.println(kalkulator.rectPerimeter(prostokat1));
         System.out.println(kalkulator.trianglePerimeter(trojkat1));
-        
+        double poleKwadratu = kwadrat1.obliczPole();
+        System.out.println(poleKwadratu);
+        double obwodProstokatu = prostokat1.obwod;
+        System.out.println(obwodProstokatu);
+
+
 
 
     }

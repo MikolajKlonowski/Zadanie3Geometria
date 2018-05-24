@@ -8,4 +8,9 @@ public class Square {
 
 
     }
+    double obliczPole(){
+        double pole1 = bokA * bokA;
+       return pole1;
+
+    }
 }
